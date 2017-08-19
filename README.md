@@ -24,6 +24,7 @@ Now log out and back in, then edit `/etc/tor/torrc` to enable the control port, 
 sudo sed -i 's/#ControlPort 9051/ControlPort 9051/g' /etc/tor/torrc
 sudo sed -i 's/#CookieAuthentication 1/CookieAuthentication 1/g' /etc/tor/torrc
 sudo su -c "echo 'CookieAuthFileGroupReadable 1' >> /etc/tor/torrc"
+sudo su -c "echo 'LongLivedPorts 9033' >> /etc/tor/torrc"
 ```
 Now restart the Tor service.
 ```
@@ -81,6 +82,7 @@ Now create a new folder at `%APPDATA%\tor` and create a new text file `%APPDATA%
 ```
 ControlPort 9051
 CookieAuthentication 1
+LongLivedPorts 9033
 ```
 
 Now open a command prompt and change to the directory you extracted Tor to e.g.
