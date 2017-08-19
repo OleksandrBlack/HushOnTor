@@ -66,7 +66,13 @@ onlynet=tor
 addnode=mmphgqdbjvqpazpe.onion
 addnode=hushnodexptkgea3.onion
 ``` 
-
+### Connect to Tor and Regualr nodes
+edit your hush.conf and add
+```
+onion=127.0.0.1:9050
+addnode=mmphgqdbjvqpazpe.onion
+addnode=hushnodexptkgea3.onion
+```
 Restart hushd and your node will officially be hidden and outta sight :D
 
 ### Windows
@@ -102,11 +108,8 @@ Same as the Linux guide but edit the config at `%APPDATA%\Hush\hush.conf`.
 
 ### List of Tor nodes:
 ```
-addnode=arrdjplw5rtjpyqm.onion
-addnode=gowy6xruajuu2tln.onion
-addnode=ot35wzoyrnaurgz6.onion
-addnode=etqmwbdd4u6kyxlq.onion
-addnode=d2y2vsq5rxkcpk6f.onion
+addnode=mmphgqdbjvqpazpe.onion
+addnode=hushnodexptkgea3.onion
 ```
 
 Submit a PR to have yours added!
