@@ -1,4 +1,4 @@
-# Zencash on Tor
+# Hushd on Tor
 
 ### Linux
 
@@ -24,18 +24,18 @@ Now log out and back in, then edit `/etc/tor/torrc` to enable the control port, 
 sudo sed -i 's/#ControlPort 9051/ControlPort 9051/g' /etc/tor/torrc
 sudo sed -i 's/#CookieAuthentication 1/CookieAuthentication 1/g' /etc/tor/torrc
 sudo su -c "echo 'CookieAuthFileGroupReadable 1' >> /etc/tor/torrc"
-sudo su -c "echo 'LongLivedPorts 9033' >> /etc/tor/torrc"
+sudo su -c "echo 'LongLivedPorts 21,22,706,1863,5050,5190,5222,5223,6523,6667,6697,8300,8888' >> /etc/tor/torrc"
 ```
 Now restart the Tor service.
 ```
 sudo systemctl restart tor.service
 ```
 
-#### Setting up zend to be reachable by other Tor nodes
+#### Setting up hushd to be reachable by other Tor nodes
 
-If you've configured Tor as previously described there is nothing more you need to do. When you start zend without any command line options e.g. `./zend` it will automatically create a HiddenService and be reachable via the Tor network and clearnet. The node should have created a file `~/.zen/onion_private_key`, this file stores the private key of your HiddenService address.
+If you've configured Tor as previously described there is nothing more you need to do. When you start hushd without any command line options e.g. `./hushd` it will automatically create a HiddenService and be reachable via the Tor network and clearnet. The node should have created a file `~/.hush/onion_private_key`, this file stores the private key of your HiddenService address.
 
-When you use `./zen-cli getnetworkinfo` you should see that your node is reachable as a HiddenService like so:
+When you use `./hush-cli getnetworkinfo` you should see that your node is reachable as a HiddenService like so:
 ```
 [...]
     {
@@ -49,8 +49,8 @@ When you use `./zen-cli getnetworkinfo` you should see that your node is reachab
   "relayfee": 0.00000100,
   "localaddresses": [
     {
-      "address": "lbfuusf2bg5e2t3j.onion",
-      "port": 9033,
+      "address": "hushnodexptkgea3.onion",
+      "port": 8888,
       "score": 4
     }
 [...]
@@ -59,18 +59,15 @@ When you use `./zen-cli getnetworkinfo` you should see that your node is reachab
 You can now give out your onion address, nodes will then be able to connect to it :D
 
 #### Connect to Tor nodes only:
-edit your zen.conf and add
+edit your hush.conf and add
 ```
 proxy=127.0.0.1:9050
 onlynet=tor
-addnode=arrdjplw5rtjpyqm.onion
-addnode=gowy6xruajuu2tln.onion
-addnode=ot35wzoyrnaurgz6.onion
-addnode=etqmwbdd4u6kyxlq.onion
-addnode=d2y2vsq5rxkcpk6f.onion
+addnode=mmphgqdbjvqpazpe.onion
+addnode=hushnodexptkgea3.onion
 ``` 
 
-Restart zend and your node will officially be hidden and outta sight :D
+Restart hushd and your node will officially be hidden and outta sight :D
 
 ### Windows
 
@@ -95,13 +92,13 @@ Tor\tor.exe
 ```
 you should see Tor's log output in the command prompt window.
 
-#### Setting up zend to be reachable by other Tor nodes
+#### Setting up hushd to be reachable by other Tor nodes
 
-Same as the Linux guide but use `.\zend.exe`, `.\zen-cli.exe getnetworkinfo` and `%APPDATA%\Zen\onion_private_key`.
+Same as the Linux guide but use `.\hushd.exe`, `.\hush-cli.exe getnetworkinfo` and `%APPDATA%\Hush\onion_private_key`.
 
 #### Connect to Tor nodes only:
 
-Same as the Linux guide but edit the config at `%APPDATA%\Zen\zen.conf`.
+Same as the Linux guide but edit the config at `%APPDATA%\Hush\hush.conf`.
 
 ### List of Tor nodes:
 ```
