@@ -63,14 +63,14 @@ edit your hush.conf and add
 ```
 proxy=127.0.0.1:9050
 onlynet=tor
-addnode=mmphgqdbjvqpazpe.onion
+addnode=hushnodejbnzyvfk.onion
 addnode=hushnodexptkgea3.onion
 ``` 
 ### Connect to Tor and Regualr nodes
 edit your hush.conf and add
 ```
 onion=127.0.0.1:9050
-addnode=mmphgqdbjvqpazpe.onion
+addnode=hushnodejbnzyvfk.onion
 addnode=hushnodexptkgea3.onion
 ```
 Restart hushd and your node will officially be hidden and outta sight :D
@@ -85,7 +85,7 @@ Now create a new folder at `%APPDATA%\tor` and create a new text file `%APPDATA%
 ```
 ControlPort 9051
 CookieAuthentication 1
-LongLivedPorts 9033
+LongLivedPorts 8888
 ```
 
 Now open a command prompt and change to the directory you extracted Tor to e.g.
@@ -108,7 +108,7 @@ Same as the Linux guide but edit the config at `%APPDATA%\Hush\hush.conf`.
 
 ### List of Tor nodes:
 ```
-addnode=mmphgqdbjvqpazpe.onion
+addnode=hushnodejbnzyvfk.onion
 addnode=hushnodexptkgea3.onion
 ```
 
