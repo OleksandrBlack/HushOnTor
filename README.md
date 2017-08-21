@@ -110,6 +110,8 @@ Same as the Linux guide but edit the config at `%APPDATA%\Hush\hush.conf`.
 ```
 addnode=hushnodejbnzyvfk.onion
 addnode=hushnodexptkgea3.onion
+addnode=keyrx4lugtnya7ax.onion
+addnode=j7h7df2tylc57xeo.onion
 ```
 
 Submit a PR to have yours added!
