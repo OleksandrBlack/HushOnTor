@@ -1,5 +1,8 @@
 # Hushd on Tor
 
+[skip to the list of node](https://github.com/madbuda/HushOnTor#list-of-tor-nodes)
+
+
 ### Linux
 
 #### Install Tor from the official repository
