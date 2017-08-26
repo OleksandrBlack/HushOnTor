@@ -1,7 +1,21 @@
 # Hushd on Tor
 
-[skip to the list of node](https://github.com/madbuda/HushOnTor#list-of-tor-nodes)
+[Setup on Linux] (#Linux)
+[Setup on Windows] (#windows)
 
+## Hush TOR Services
+[Block Explorer http://explorer.hushnet2evovdyq5.onion/] (http://explorer.hushnet2evovdyq5.onion/)
+[Network Map & Node http://hushnet2evovdyq5.onion/] (http://hushnet2evovdyq5.onion/)
+[Node status http://node.hushnet2evovdyq5.onion/] (http://node.hushnet2evovdyq5.onion/)
+
+## List of Tor nodes: Fork and Submit a PR to add yours
+```
+addnode=madminingja2ozys.onion
+addnode=hushnodejbnzyvfk.onion
+addnode=hushnodexptkgea3.onion
+addnode=keyrx4lugtnya7ax.onion
+addnode=j7h7df2tylc57xeo.onion
+```
 
 ### Linux
 
