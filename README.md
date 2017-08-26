@@ -1,7 +1,7 @@
 # Hushd on Tor
 
-[Setup on Linux] (#Linux)
-[Setup on Windows] (#windows)
+[Setup on Linux](#Linux)    
+[Setup on Windows](#windows)
 
 ## Hush TOR Services
 [Block Explorer http://explorer.hushnet2evovdyq5.onion/](http://explorer.hushnet2evovdyq5.onion/)    
