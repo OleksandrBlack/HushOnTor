@@ -66,15 +66,21 @@ edit your hush.conf and add
 ```
 proxy=127.0.0.1:9050
 onlynet=tor
+addnode=madminingja2ozys.onion
 addnode=hushnodejbnzyvfk.onion
 addnode=hushnodexptkgea3.onion
+addnode=keyrx4lugtnya7ax.onion
+addnode=j7h7df2tylc57xeo.onion
 ``` 
 ### Connect to Tor and Regualr nodes
 edit your hush.conf and add
 ```
 onion=127.0.0.1:9050
+addnode=madminingja2ozys.onion
 addnode=hushnodejbnzyvfk.onion
 addnode=hushnodexptkgea3.onion
+addnode=keyrx4lugtnya7ax.onion
+addnode=j7h7df2tylc57xeo.onion
 ```
 Restart hushd and your node will officially be hidden and outta sight :D
 
@@ -111,6 +117,7 @@ Same as the Linux guide but edit the config at `%APPDATA%\Hush\hush.conf`.
 
 ### List of Tor nodes:
 ```
+addnode=madminingja2ozys.onion
 addnode=hushnodejbnzyvfk.onion
 addnode=hushnodexptkgea3.onion
 addnode=keyrx4lugtnya7ax.onion
