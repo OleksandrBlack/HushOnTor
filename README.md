@@ -68,7 +68,7 @@ proxy=127.0.0.1:9050
 onlynet=tor
 addnode=madminingja2ozys.onion
 addnode=hushnodejbnzyvfk.onion
-addnode=hushnodexptkgea3.onion
+addnode=hushnet2evovdyq5.onion
 addnode=keyrx4lugtnya7ax.onion
 addnode=j7h7df2tylc57xeo.onion
 ``` 
@@ -78,7 +78,7 @@ edit your hush.conf and add
 onion=127.0.0.1:9050
 addnode=madminingja2ozys.onion
 addnode=hushnodejbnzyvfk.onion
-addnode=hushnodexptkgea3.onion
+addnode=hushnet2evovdyq5.onion
 addnode=keyrx4lugtnya7ax.onion
 addnode=j7h7df2tylc57xeo.onion
 ```
