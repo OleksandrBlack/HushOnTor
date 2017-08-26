@@ -4,9 +4,9 @@
 [Setup on Windows](#windows)
 
 ## Hush TOR Services
-[Block Explorer](http://explorer.hushnet2evovdyq5.onion/) > http://explorer.hushnet2evovdyq5.onion    
-[Network Map & Node](http://hushnet2evovdyq5.onion/)  > http://hushnet2evovdyq5.onion    
-[Node status](http://node.hushnet2evovdyq5.onion/) > http://node.hushnet2evovdyq5.onion    
+Block Explorer > http://explorer.hushnet2evovdyq5.onion    
+Network Map & Node  > http://hushnet2evovdyq5.onion    
+Node status > http://node.hushnet2evovdyq5.onion    
 
 ## List of Tor nodes: Fork and Submit a PR to add yours
 ```
