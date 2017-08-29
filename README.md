@@ -12,6 +12,7 @@ Node status > http://node.hushnet2evovdyq5.onion
 ```
 addnode=hushnet2evovdyq5.onion
 addnode=madminingja2ozys.onion
+addnode=hushwgexvojlkuhl.onion
 addnode=hushnodejbnzyvfk.onion
 addnode=hushnodexptkgea3.onion
 addnode=keyrx4lugtnya7ax.onion
