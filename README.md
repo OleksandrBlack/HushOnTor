@@ -16,6 +16,7 @@ addnode=hushnodejbnzyvfk.onion
 addnode=hushnodexptkgea3.onion
 addnode=keyrx4lugtnya7ax.onion
 addnode=j7h7df2tylc57xeo.onion
+addnode=ozumguh2lk6uvcc3.onion
 ```
 
 ### Linux
