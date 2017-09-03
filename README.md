@@ -15,12 +15,13 @@ addnode=madminingja2ozys.onion
 addnode=hushwgexvojlkuhl.onion
 addnode=hushnodejbnzyvfk.onion
 addnode=hushnodexptkgea3.onion
-addnode=keyrx4lugtnya7ax.onion
-addnode=j7h7df2tylc57xeo.onion
-addnode=ozumguh2lk6uvcc3.onion
 addnode=hushx6w7zly4plhx.onion
 addnode=hushlercfek5m7wd.onion
 addnode=hushe2mzoyoxc7dr.onion
+addnode=keyrx4lugtnya7ax.onion
+addnode=j7h7df2tylc57xeo.onion
+addnode=ozumguh2lk6uvcc3.onion
+
 ```
 
 ### Linux
