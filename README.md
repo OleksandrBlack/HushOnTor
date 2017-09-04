@@ -21,6 +21,7 @@ addnode=hushe2mzoyoxc7dr.onion
 addnode=keyrx4lugtnya7ax.onion
 addnode=j7h7df2tylc57xeo.onion
 addnode=ozumguh2lk6uvcc3.onion
+addnode=geu3w3eojanqex6c.onion
 
 ```
 
@@ -143,6 +144,8 @@ addnode=hushnodejbnzyvfk.onion
 addnode=hushnodexptkgea3.onion
 addnode=keyrx4lugtnya7ax.onion
 addnode=j7h7df2tylc57xeo.onion
+addnode=geu3w3eojanqex6c.onion
+
 ```
 
 Submit a PR to have yours added!
