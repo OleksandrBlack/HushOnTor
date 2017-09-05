@@ -1,4 +1,4 @@
-# Hushd on Tor
+# Hush on Tor
 
 [Setup on Linux](#Linux)    
 [Setup on Windows](#windows)
