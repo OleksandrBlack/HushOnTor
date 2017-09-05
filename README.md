@@ -12,6 +12,7 @@ Node status > http://node.hushnet2evovdyq5.onion
 ```
 addnode=hushnet2evovdyq5.onion
 addnode=madminingja2ozys.onion
+addnode=madbuda4dvuggamj.onion
 addnode=hushwgexvojlkuhl.onion
 addnode=hushnodejbnzyvfk.onion
 addnode=hushnodexptkgea3.onion
@@ -88,21 +89,39 @@ edit your hush.conf and add
 ```
 proxy=127.0.0.1:9050
 onlynet=tor
-addnode=madminingja2ozys.onion
-addnode=hushnodejbnzyvfk.onion
 addnode=hushnet2evovdyq5.onion
+addnode=madminingja2ozys.onion
+addnode=madbuda4dvuggamj.onion
+addnode=hushwgexvojlkuhl.onion
+addnode=hushnodejbnzyvfk.onion
+addnode=hushnodexptkgea3.onion
+addnode=hushx6w7zly4plhx.onion
+addnode=hushlercfek5m7wd.onion
+addnode=hushe2mzoyoxc7dr.onion
 addnode=keyrx4lugtnya7ax.onion
 addnode=j7h7df2tylc57xeo.onion
+addnode=ozumguh2lk6uvcc3.onion
+addnode=geu3w3eojanqex6c.onion
+
 ``` 
 ### Connect to Tor and Regualr nodes
 edit your hush.conf and add
 ```
 onion=127.0.0.1:9050
-addnode=madminingja2ozys.onion
-addnode=hushnodejbnzyvfk.onion
 addnode=hushnet2evovdyq5.onion
+addnode=madminingja2ozys.onion
+addnode=madbuda4dvuggamj.onion
+addnode=hushwgexvojlkuhl.onion
+addnode=hushnodejbnzyvfk.onion
+addnode=hushnodexptkgea3.onion
+addnode=hushx6w7zly4plhx.onion
+addnode=hushlercfek5m7wd.onion
+addnode=hushe2mzoyoxc7dr.onion
 addnode=keyrx4lugtnya7ax.onion
 addnode=j7h7df2tylc57xeo.onion
+addnode=ozumguh2lk6uvcc3.onion
+addnode=geu3w3eojanqex6c.onion
+
 ```
 Restart hushd and your node will officially be hidden and outta sight :D
 
@@ -139,12 +158,20 @@ Same as the Linux guide but edit the config at `%APPDATA%\Hush\hush.conf`.
 
 ### List of Tor nodes:
 ```
+addnode=hushnet2evovdyq5.onion
 addnode=madminingja2ozys.onion
+addnode=madbuda4dvuggamj.onion
+addnode=hushwgexvojlkuhl.onion
 addnode=hushnodejbnzyvfk.onion
 addnode=hushnodexptkgea3.onion
+addnode=hushx6w7zly4plhx.onion
+addnode=hushlercfek5m7wd.onion
+addnode=hushe2mzoyoxc7dr.onion
 addnode=keyrx4lugtnya7ax.onion
 addnode=j7h7df2tylc57xeo.onion
+addnode=ozumguh2lk6uvcc3.onion
 addnode=geu3w3eojanqex6c.onion
+
 
 ```
 
